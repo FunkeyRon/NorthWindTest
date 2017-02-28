@@ -1,0 +1,29 @@
+﻿{
+  "Categories": [
+    {
+      "name": "FreeLobbySession",
+      "Scripts": [
+        {
+          "name": "GetBeforeHalfHourFreeLobbySessionEmba",
+          "cmd": "SELECT fls_sn,[type],fls_class_name,attend_date FROM [muchnewdb].[dbo].[cfg_free_lobby_session_emba] WITH (NOLOCK) WHERE valid = 1 AND ([Type] > 544 OR [TYPE] < 544) AND SendSmsState IS NULL AND attend_date >= GETDATE() AND DATEADD(HOUR, -6, attend_date) <= GETDATE()"
+        },
+        {
+          "name": "UpdateSendSmsState",
+          "cmd": "UPDATE [dbo].[cfg_free_lobby_session_emba] SET SendSmsState = @SendSmsState WHERE fls_sn = @fls_sn"
+        },
+        {
+          "name": "UpdateSendSmsStatebyFlsSnList",
+          "cmd": "UPDATE [dbo].[cfg_free_lobby_session_emba] SET SendSmsState = @SendSmsState WHERE fls_sn IN @fls_snList"
+        },
+        {
+          "name": "GetFreeLobbySessionEmbabyType",
+          "cmd": "SELECT * FROM [dbo].[free_lobby_session_emba] WITH (NOLOCK) WHERE Type In @Types"
+        }
+      ]
+    }
+
+  ],
+  "ConnectionStrings": {
+    "NorthwindConnection": "Data Source=(LocalDb)\\v11.0;Initial Catalog=Northwind;User ID=NorthWindss;Password=123456; Application Name=Northwind; Connection Timeout=300;"
+  }
+}

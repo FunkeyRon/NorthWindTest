@@ -4,6 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWindTest", "NorthWindTest\NorthWindTest.csproj", "{806365DE-2E18-4A4B-9836-597D96A7C301}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED62E8A3-1EBD-4746-A7B5-665DCC32429C} = {ED62E8A3-1EBD-4746-A7B5-665DCC32429C}
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NorthWindTest.Service", "NorthWindTest.Service\NorthWindTest.Service.xproj", "{ED62E8A3-1EBD-4746-A7B5-665DCC32429C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NorthWindTest.Models", "NorthWindTest.Models\NorthWindTest.Models.xproj", "{1A4D39D0-EEAD-4589-908D-4AD28830BA1F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NorthWindTest.Repository", "NorthWindTest.Repository\NorthWindTest.Repository.xproj", "{F52E7BF1-C7C9-4B76-9C04-63DBFE9B8ED9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NorthWindTest.Common", "NorthWindTest.Common\NorthWindTest.Common.xproj", "{8D69C048-5E45-429D-8021-3F6981C28C07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,22 @@ Global
 		{806365DE-2E18-4A4B-9836-597D96A7C301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{806365DE-2E18-4A4B-9836-597D96A7C301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{806365DE-2E18-4A4B-9836-597D96A7C301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED62E8A3-1EBD-4746-A7B5-665DCC32429C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED62E8A3-1EBD-4746-A7B5-665DCC32429C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED62E8A3-1EBD-4746-A7B5-665DCC32429C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED62E8A3-1EBD-4746-A7B5-665DCC32429C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4D39D0-EEAD-4589-908D-4AD28830BA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4D39D0-EEAD-4589-908D-4AD28830BA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4D39D0-EEAD-4589-908D-4AD28830BA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4D39D0-EEAD-4589-908D-4AD28830BA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52E7BF1-C7C9-4B76-9C04-63DBFE9B8ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52E7BF1-C7C9-4B76-9C04-63DBFE9B8ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52E7BF1-C7C9-4B76-9C04-63DBFE9B8ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52E7BF1-C7C9-4B76-9C04-63DBFE9B8ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D69C048-5E45-429D-8021-3F6981C28C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D69C048-5E45-429D-8021-3F6981C28C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D69C048-5E45-429D-8021-3F6981C28C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D69C048-5E45-429D-8021-3F6981C28C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
