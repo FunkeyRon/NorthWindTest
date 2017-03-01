@@ -2,18 +2,35 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
+// 組件的一般資訊是由下列的屬性集控制。
+// 變更這些屬性的值即可修改組件的相關
+// 資訊。
+[assembly: AssemblyTitle("NorthWindTest.Models")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("NorthWindTest.Models")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
 
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
+// 將 ComVisible 設定為 false 會使得這個組件中的類型
+// 對 COM 元件而言為不可見。如果您需要從 COM 存取這個組件中
+// 的類型，請在該類型上將 ComVisible 屬性設定為 true。
 [assembly: ComVisible(false)]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1a4d39d0-eead-4589-908d-4ad28830ba1f")]
+// 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
+[assembly: Guid("ef79e1fa-4b6e-4b51-8274-2304acd92d89")]
+
+// 組件的版本資訊由下列四個值所組成: 
+//
+//      主要版本
+//      次要版本 
+//      組建編號
+//      修訂編號
+//
+// 您可以指定所有的值，也可以依照以下的方式，使用 '*' 將組建和修訂編號
+// 指定為預設值: 
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

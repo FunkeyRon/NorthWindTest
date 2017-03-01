@@ -5,8 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
 using Dapper;
+using NorthWindTest.Common.Constants;
 
 namespace NorthWindTest.Repository.Repositories
 {
@@ -14,7 +14,16 @@ namespace NorthWindTest.Repository.Repositories
     {
         private IDbSession _session;
         private static SqlConfigRoot jsonRoot = null;
-        protected static string configPath = "C:\\Project\\NorthWindTest\\NorthWindTest\\App_Data\\SQLScript.json";
+        protected static ConnectionStrings connectionStrings
+        {
+            get
+            {
+                JsonHelper configReader = new JsonHelper();
+                return configReader.GetJsonObject<ConnectionStrings>(SettingFilePaths.DBJsonConfigPath);
+            }
+        }
+
+       
 
         /// <summary>
         /// RepositoryBase
@@ -28,7 +37,7 @@ namespace NorthWindTest.Repository.Repositories
             {
                 //物件化Json檔案
                 JsonHelper configReader = new JsonHelper();
-                jsonRoot = configReader.GetJsonObject<SqlConfigRoot>(configPath);
+                jsonRoot = configReader.GetJsonObject<SqlConfigRoot>(SettingFilePaths.DBJsonConfigPath);
             }
         }
 

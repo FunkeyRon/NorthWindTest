@@ -1,7 +1,5 @@
 ﻿{
   "ConnectionStrings": {
     "NorthwindConnection": "Data Source=(LocalDb)\\v11.0;Initial Catalog=Northwind;User ID=NorthWindss;Password=123456; Application Name=Northwind; Connection Timeout=300;"
-  },
-
-  "JsonFilePath": "C:\\Project\\NorthWindTest\\NorthWindTest\\App_Data\\SQLScript.json"
+  }
 }

@@ -1,0 +1,15 @@
+C:\Project\NorthWindTest\NorthWindTest.Service\obj\Debug\NorthWindTest.Service.csprojResolveAssemblyReference.cache
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\NorthWindTest.Service.dll
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\NorthWindTest.Service.pdb
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\NorthWindTest.Common.dll
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\NorthWindTest.Models.dll
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\NorthWindTest.Repository.dll
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\Newtonsoft.Json.dll
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\Dapper.dll
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\NorthWindTest.Common.pdb
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\NorthWindTest.Models.pdb
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\NorthWindTest.Repository.pdb
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Project\NorthWindTest\NorthWindTest.Service\bin\Debug\Dapper.xml
+C:\Project\NorthWindTest\NorthWindTest.Service\obj\Debug\NorthWindTest.Service.dll
+C:\Project\NorthWindTest\NorthWindTest.Service\obj\Debug\NorthWindTest.Service.pdb

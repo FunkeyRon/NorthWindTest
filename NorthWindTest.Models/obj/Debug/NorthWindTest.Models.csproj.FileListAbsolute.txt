@@ -1,0 +1,5 @@
+C:\Project\NorthWindTest\NorthWindTest.Models\bin\Debug\NorthWindTest.Models.dll
+C:\Project\NorthWindTest\NorthWindTest.Models\bin\Debug\NorthWindTest.Models.pdb
+C:\Project\NorthWindTest\NorthWindTest.Models\obj\Debug\NorthWindTest.Models.dll
+C:\Project\NorthWindTest\NorthWindTest.Models\obj\Debug\NorthWindTest.Models.pdb
+C:\Project\NorthWindTest\NorthWindTest.Models\obj\Debug\NorthWindTest.Models.csprojResolveAssemblyReference.cache

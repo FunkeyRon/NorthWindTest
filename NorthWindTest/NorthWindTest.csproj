@@ -77,12 +77,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="NorthWindTest.Service">
-      <HintPath>..\NorthWindTest.Service\bin\Debug\netstandard1.6\NorthWindTest.Service.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -271,7 +270,20 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\NorthWindTest.Common\NorthWindTest.Common.csproj">
+      <Project>{1dac9f9a-66b3-486c-8823-5443c22a3d13}</Project>
+      <Name>NorthWindTest.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NorthWindTest.Models\NorthWindTest.Models.csproj">
+      <Project>{ef79e1fa-4b6e-4b51-8274-2304acd92d89}</Project>
+      <Name>NorthWindTest.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NorthWindTest.Service\NorthWindTest.Service.csproj">
+      <Project>{ec9565b0-b2dd-48c2-8410-8b7d394f2731}</Project>
+      <Name>NorthWindTest.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

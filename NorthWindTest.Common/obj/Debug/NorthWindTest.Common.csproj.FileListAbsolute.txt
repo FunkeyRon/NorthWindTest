@@ -1,0 +1,6 @@
+C:\Project\NorthWindTest\NorthWindTest.Common\bin\Debug\NorthWindTest.Common.dll
+C:\Project\NorthWindTest\NorthWindTest.Common\bin\Debug\NorthWindTest.Common.pdb
+C:\Project\NorthWindTest\NorthWindTest.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Project\NorthWindTest\NorthWindTest.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Project\NorthWindTest\NorthWindTest.Common\obj\Debug\NorthWindTest.Common.dll
+C:\Project\NorthWindTest\NorthWindTest.Common\obj\Debug\NorthWindTest.Common.pdb

@@ -11,15 +11,7 @@ namespace NorthWindTest.Repository.Repositories
 {
     public class CustomerRepository : RepositoryBase, ICustomerRepository
     {
-        private static ConnectionStrings _connectionStrings {
-            get {
-                JsonHelper configReader = new JsonHelper();
-                return configReader.GetJsonObject<ConnectionStrings>(configPath);
-            }
-        }
-
-
-        public CustomerRepository() : base(new DbSessionBase(_connectionStrings.NorthwindConnection)) { }
+        public CustomerRepository() : base(new DbSessionBase(connectionStrings.NorthwindConnection)) { }
         public CustomerRepository(IDbSession _dbSession) : base(_dbSession) { }
 
 
