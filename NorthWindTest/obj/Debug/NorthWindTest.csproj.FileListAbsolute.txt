@@ -49,6 +49,9 @@ C:\Project\NorthWindTest\NorthWindTest\bin\System.Web.WebPages.Deployment.dll
 C:\Project\NorthWindTest\NorthWindTest\bin\System.Web.WebPages.dll
 C:\Project\NorthWindTest\NorthWindTest\bin\System.Web.WebPages.Razor.dll
 C:\Project\NorthWindTest\NorthWindTest\bin\WebGrease.dll
+C:\Project\NorthWindTest\NorthWindTest\bin\NorthWindTest.Common.dll
+C:\Project\NorthWindTest\NorthWindTest\bin\NorthWindTest.Repository.dll
+C:\Project\NorthWindTest\NorthWindTest\bin\NorthWindTest.Models.dll
 C:\Project\NorthWindTest\NorthWindTest\bin\Microsoft.AI.DependencyCollector.xml
 C:\Project\NorthWindTest\NorthWindTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Project\NorthWindTest\NorthWindTest\bin\Microsoft.AI.Web.xml
@@ -79,6 +82,9 @@ C:\Project\NorthWindTest\NorthWindTest\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Project\NorthWindTest\NorthWindTest\bin\Microsoft.Owin.Security.Google.xml
 C:\Project\NorthWindTest\NorthWindTest\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Project\NorthWindTest\NorthWindTest\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Project\NorthWindTest\NorthWindTest\bin\NorthWindTest.Common.pdb
+C:\Project\NorthWindTest\NorthWindTest\bin\NorthWindTest.Repository.pdb
+C:\Project\NorthWindTest\NorthWindTest\bin\NorthWindTest.Models.pdb
 C:\Project\NorthWindTest\NorthWindTest\bin\zh-Hant\System.Web.Helpers.resources.dll
 C:\Project\NorthWindTest\NorthWindTest\bin\zh-Hant\System.Web.Mvc.resources.dll
 C:\Project\NorthWindTest\NorthWindTest\bin\zh-Hant\System.Web.Optimization.resources.dll

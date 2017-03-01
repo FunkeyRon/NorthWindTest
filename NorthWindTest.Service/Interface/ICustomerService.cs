@@ -7,7 +7,7 @@ namespace NorthWindTest.Service.Interface
 {
     public interface ICustomerService
     {
-
+        string GetCustomersReturnJson();
 
     }
 }

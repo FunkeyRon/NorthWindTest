@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 namespace NorthWindTest.Common.Helper
 {
@@ -44,12 +45,17 @@ namespace NorthWindTest.Common.Helper
             {
                 var jsonString = streamReader.ReadToEnd();
                 var jsonObject = JObject.Parse(jsonString);
-
+               
                 result = jsonObject.ToObject<T>();
 
             }
 
             return result;
+        }
+
+        public string JsonObjectToString(object obj)
+        {
+            return JsonConvert.SerializeObject(obj);
         }
     }
 }
