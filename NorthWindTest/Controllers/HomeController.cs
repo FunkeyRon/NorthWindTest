@@ -1,4 +1,5 @@
-﻿using NorthWindTest.Service;
+﻿using NorthWindTest.Models.ViewModels;
+using NorthWindTest.Service;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -30,7 +31,10 @@ namespace NorthWindTest.Controllers
             return View();
         }
 
-
+        /// <summary>
+        /// 測試Get Customer List
+        /// </summary>
+        /// <returns></returns>
         public ActionResult GetCustomerList()
         {
             try
@@ -47,5 +51,42 @@ namespace NorthWindTest.Controllers
 
             }
         }
+
+
+        [HttpPost]
+        public ActionResult Login(string email, string passwd)
+        {
+            try
+            {
+                ViewData["ErrorMsg"] = "敬請期待";
+                return View("Index"); 
+
+
+            }
+            catch (Exception ex)
+            {
+                ViewData["ErrorMsg"] = ex.InnerException.Message;
+                return View("Index");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Register(AccountViewModel account)
+        {
+            try
+            {
+                string tt= account.Email;
+                ViewData["ActionType"] = "Register";
+                ViewData["ErrorMsg"] = "敬請期待";
+                return RedirectToAction("Index", "Home");
+            }
+            catch (Exception ex)
+            {
+                ViewData["ErrorMsg"] = ex.InnerException.Message;
+                return RedirectToAction("Index", "Home");
+            }
+
+        }
+
     }
 }
